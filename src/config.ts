@@ -12,8 +12,6 @@ export type Config = {
   listenhost: string
   hostname: string
   sqliteLocation: string
-  subscriptionEndpoint: string
   serviceDid: string
   publisherDid: string
-  subscriptionReconnectDelay: number
 }

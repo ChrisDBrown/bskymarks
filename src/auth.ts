@@ -1,5 +1,9 @@
 import express from 'express'
-import { verifyJwt, AuthRequiredError, parseReqNsid } from '@atproto/xrpc-server'
+import {
+  verifyJwt,
+  AuthRequiredError,
+  parseReqNsid,
+} from '@atproto/xrpc-server'
 import { DidResolver } from '@atproto/identity'
 
 export const validateAuth = async (

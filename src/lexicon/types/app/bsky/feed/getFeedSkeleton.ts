@@ -12,6 +12,7 @@ import * as AppBskyFeedDefs from './defs'
 export interface QueryParams {
   feed: string
   limit: number
+  did: string
   cursor?: string
 }
 
